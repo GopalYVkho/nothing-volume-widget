@@ -823,8 +823,9 @@ int id visible_removing_fragment_view_tag 0x7f0800b4
 int id volume_label 0x7f0800b5
 int id volume_percentage 0x7f0800b6
 int id volume_progress 0x7f0800b7
-int id withText 0x7f0800b8
-int id wrap_content 0x7f0800b9
+int id volume_widget 0x7f0800b8
+int id withText 0x7f0800b9
+int id wrap_content 0x7f0800ba
 int integer abc_config_activityDefaultDur 0x7f090000
 int integer abc_config_activityShortDur 0x7f090001
 int integer cancel_button_image_alpha 0x7f090002

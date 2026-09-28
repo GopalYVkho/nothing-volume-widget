@@ -1,6 +1,7 @@
 int id volume_label 0x0
 int id volume_percentage 0x0
 int id volume_progress 0x0
+int id volume_widget 0x0
 int layout widget_volume 0x0
 int style Theme_NothingVolume 0x0
 int xml volume_widget_info 0x0

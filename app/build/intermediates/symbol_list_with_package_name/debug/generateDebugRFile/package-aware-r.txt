@@ -2,6 +2,7 @@ com.gopal.nothingvolume
 id volume_label
 id volume_percentage
 id volume_progress
+id volume_widget
 layout widget_volume
 style Theme_NothingVolume
 xml volume_widget_info
