@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.gopal.nothingvolume.app-debug-24:/xml_volume_widget_info.xml.flat",
+        "source": "com.gopal.nothingvolume.app-main-26:/xml/volume_widget_info.xml"
+    },
+    {
+        "merged": "com.gopal.nothingvolume.app-debug-24:/layout_widget_volume.xml.flat",
+        "source": "com.gopal.nothingvolume.app-main-26:/layout/widget_volume.xml"
+    }
+]
