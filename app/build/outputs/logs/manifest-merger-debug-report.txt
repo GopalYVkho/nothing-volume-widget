@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:3:1-25:12
-INJECTED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:3:1-25:12
-INJECTED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:3:1-25:12
-INJECTED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:3:1-25:12
+ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:3:1-29:12
+INJECTED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:3:1-29:12
+INJECTED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:3:1-29:12
+INJECTED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:3:1-29:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /home/codespace/.gradle/caches/9.7.1/transforms/e900519653e86e1b93f84a130150750f/transformed/appcompat-resources-1.7.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat:1.7.1] /home/codespace/.gradle/caches/9.7.1/transforms/ff11a148c7219b7345eebe56bf92a757/transformed/appcompat-1.7.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.fragment:fragment:1.5.4] /home/codespace/.gradle/caches/9.7.1/transforms/4a6d91b22402581906a6f26476b48165/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
@@ -43,8 +43,8 @@ MERGED from [androidx.core:core-viewtree:1.0.0] /home/codespace/.gradle/caches/9
 	xmlns:android
 		ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:3:11-69
 application
-ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:5:5-23:19
-INJECTED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:5:5-23:19
+ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:5:5-27:19
+INJECTED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:5:5-27:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/9.7.1/transforms/2e5c0f1275f4d32629b712b100f04260/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/9.7.1/transforms/2e5c0f1275f4d32629b712b100f04260/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.core:core:1.16.0] /home/codespace/.gradle/caches/9.7.1/transforms/bb5b33bcfa1e7c0f3c9a7aa0cb458f31/transformed/core-1.16.0/AndroidManifest.xml:28:5-89
@@ -65,24 +65,30 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/codes
 		ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:7:9-39
 	android:theme
 		ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:6:9-51
-receiver#com.gopal.nothingvolume.VolumeWidget
-ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:9:9-21:20
+activity#com.gopal.nothingvolume.VolumeControlActivity
+ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:9:9-11:40
 	android:exported
-		ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:11:13-36
+		ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:10:13-41
+		ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:10:13-50
+receiver#com.gopal.nothingvolume.VolumeWidget
+ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:13:9-25:20
+	android:exported
+		ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:14:13-41
 intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:13:13-15:29
+ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:17:13-19:29
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:14:17-84
+ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:18:17-84
 	android:name
-		ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:14:25-81
+		ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:18:25-81
 meta-data#android.appwidget.provider
-ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:17:13-19:62
+ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:21:13-23:62
 	android:resource
-		ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:19:17-59
+		ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:23:17-59
 	android:name
-		ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:18:17-58
+		ADDED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml:22:17-58
 uses-sdk
 INJECTED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /workspaces/nothing-volume-widget/app/src/main/AndroidManifest.xml

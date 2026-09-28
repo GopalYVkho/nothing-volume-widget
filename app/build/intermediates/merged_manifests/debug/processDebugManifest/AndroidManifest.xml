@@ -20,6 +20,10 @@
         android:extractNativeLibs="false"
         android:label="Nothing Volume"
         android:theme="@style/Theme.NothingVolume" >
+        <activity
+            android:name="com.gopal.nothingvolume.VolumeControlActivity"
+            android:exported="false" />
+
         <receiver
             android:name="com.gopal.nothingvolume.VolumeWidget"
             android:exported="true" >

@@ -6,6 +6,10 @@
         android:theme="@style/Theme.NothingVolume"
         android:label="Nothing Volume">
 
+        <activity
+            android:name=".VolumeControlActivity"
+            android:exported="false" />
+
         <receiver
             android:name=".VolumeWidget"
             android:exported="true">
